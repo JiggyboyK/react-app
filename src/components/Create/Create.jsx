@@ -9,7 +9,7 @@ const Create = () => {
   const [title,setTitle ] = useState('')
   const [body,setBody ] = useState('')
   const form = {title,body, user_id: Math.floor(Math.random() * 5000)}
-  const url ='http://localhost:3000/posts'
+  const url ='http://localhost:4000/posts'
   const submit = async (e)=>{
     e.preventDefault()
     await axios.post(url,form)    

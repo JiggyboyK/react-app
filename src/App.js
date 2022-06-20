@@ -1,9 +1,11 @@
 import { BrowserRouter,Routes,Route } from 'react-router-dom';
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import Create from './components/Create/Create';
 import Todo from './components/Todo/Todo';
 import Navbar from './components/Navbar/Navbar';
 import Test from './components/Test/Test'
+import Signup from './components/Sign up/Signup';
 
 function App() {
   return (
@@ -14,6 +16,7 @@ function App() {
           <Route path='/' element={<Test />} />
           <Route path='/create' element={<Create />} />
           <Route path='/todo' element={<Todo />} />
+          <Route path='/signup' element={<Signup />} />
         </Routes>
       </BrowserRouter>
     </div>
