@@ -1,0 +1,19 @@
+.navbar{
+  padding: 20px;
+  width: 1200px;
+  margin: 0px auto;
+  display: flex;
+  justify-content: right;
+}
+.navbar a{
+  text-decoration: none;
+  color: black;
+  margin-right: 20px;
+  align-self: center;
+}
+.navbar a:nth-child(2){
+  background-color: #3734A9;
+  padding: 15px;
+  color: white;
+  border-radius: 5px;
+}
